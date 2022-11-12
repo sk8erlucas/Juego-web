@@ -36,9 +36,18 @@
 
 .text-resalt {
 	color: #79acaf;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 .small-text {
 	font-size: 1rem;
+}
+
+.title2 {
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+.center-img {
+	vertical-align: middle;
 }
