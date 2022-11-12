@@ -8,3 +8,37 @@
 .background-with-color {
     background-color: #79acaf;
 }
+
+.img-header{
+	height: 100%;
+	width: 100%;
+}
+
+.title {
+	font-weight: bold;
+	color: white;
+	
+	font-size: 3rem;
+	text-transform: uppercase
+}
+
+.divporcentaje{
+	width: 85%;
+}
+
+.sub-title {
+	font-weight: bold;
+	color: white;
+	
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+.text-resalt {
+	color: #79acaf;
+	font-weight: bold;
+}
+
+.small-text {
+	font-size: 1rem;
+}
