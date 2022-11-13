@@ -1,8 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/avenir');
 
 * {
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Avenir', sans-serif;
 }
 
 .background-with-color {
@@ -39,10 +39,6 @@
 	font-weight: bolder;
 }
 
-.small-text {
-	font-size: 1rem;
-}
-
 .title2 {
 	text-align: center;
 	font-size: 2.5rem;
@@ -50,4 +46,30 @@
 
 .center-img {
 	vertical-align: middle;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+@media (min-width: 1200px) {
+	
+	.responsive-text {
+		font-size: 1.5rem;
+  	}
+}
+
+@media (max-width: 768px) {
+	
+	
 }
